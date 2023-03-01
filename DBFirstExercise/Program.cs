@@ -10,6 +10,9 @@ namespace DBFirstExercise
     {
         static void Main(string[] args)
         {
+            var Vidzy = new VidzyEntities();
+            var movieDate = new DateTime(2008, 7, 21);
+            Vidzy.AddVideo("The Dark Knight", movieDate, "Horror");
         }
     }
 }
