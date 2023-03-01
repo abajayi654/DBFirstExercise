@@ -5,9 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="ccba57666eb94ffda424f44036e8a0f5" Name="Diagram1">
-        <EntityTypeShape EntityType="VidzyModel.Genre" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="VidzyModel.Video" Width="1.5" PointX="2.75" PointY="0.75" />
-        <AssociationConnector Association="VidzyModel.FK_Videos_Genres" />
+        <EntityTypeShape EntityType="VidzyModel.Genre" Width="1.5" PointX="0.75" PointY="4.25" />
+        <EntityTypeShape EntityType="VidzyModel.Video" Width="1.5" PointX="3" PointY="3.875" />
+        <AssociationConnector Association="VidzyModel.FK_Videos_Genres1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
